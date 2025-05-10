@@ -3,7 +3,8 @@
 int main() {
     
     char tabuleiro[10][10]; // Matriz para o tabuleiro (3 linhas, 3 colunas)
-       
+    
+    
    // Inicializa o tabuleiro com espaços vazios
     for (int i = 0; i < 10; i++) {
         for (int j = 0; j < 10; j++) {
@@ -18,7 +19,7 @@ int main() {
     for (int i = 0; i < 10; i++) {
         //printf(" ");
         for (int j = 0; j < 10; j++) {
-            printf("%c ", tabuleiro[i][j]);
+            printf("%c ", tabuleiro[i][j] =  '0');
         }
         printf("\n");
         if (i < 9) {
